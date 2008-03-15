@@ -1,0 +1,40 @@
+WWW-Proxy4FreeCom
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc WWW::Proxy4FreeCom
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-Proxy4FreeCom
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/WWW-Proxy4FreeCom
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/WWW-Proxy4FreeCom
+
+    Search CPAN
+        http://search.cpan.org/dist/WWW-Proxy4FreeCom
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 'Zoffix
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
