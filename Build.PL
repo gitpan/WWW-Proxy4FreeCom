@@ -14,11 +14,16 @@ my $builder = Module::Build->new(
         'Carp'                     => 1.04,
         'URI'                      => 1.35,
         'LWP::UserAgent'           => 2.036,
-        'HTML::TokeParser::Simple' => 3.15,
-        'Class::Data::Accessor'    => 0.04001,
+        'Mojo::DOM'                => 0,
+        'Class::Accessor::Grouped' => 0,
+        'perl'                     => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'WWW-Proxy4FreeCom-*' ],
     create_makefile_pl => 'traditional',
 );
+if ( $ENV{RELEASE_TESTING} ) {
+    system('pod2text lib/WWW/Proxy4FreeCom.pm > README');
+}
 
 $builder->create_build_script();
