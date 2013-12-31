@@ -16,7 +16,7 @@ name: WWW-Proxy4FreeCom
 provides:
   WWW::Proxy4FreeCom:
     file: lib/WWW/Proxy4FreeCom.pm
-    version: 1.001
+    version: 1.002
 requires:
   Carp: 1.04
   Class::Accessor::Grouped: 0
@@ -26,4 +26,4 @@ requires:
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 1.001
+version: 1.002

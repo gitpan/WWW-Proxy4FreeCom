@@ -1,5 +1,8 @@
 Revision history for WWW-Proxy4FreeCom
 
+1.002   2013-12-30
+        - Fixed broken tests
+
 1.001   2013-12-27
         [ Major BREAKING Changes ]
         - This version has a completely new API, due to the website update.

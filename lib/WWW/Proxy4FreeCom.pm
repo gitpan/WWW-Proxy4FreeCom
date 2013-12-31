@@ -3,7 +3,7 @@ package WWW::Proxy4FreeCom;
 use warnings;
 use strict;
 
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 
 use Carp;
 use URI;
