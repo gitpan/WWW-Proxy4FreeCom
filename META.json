@@ -38,7 +38,7 @@
    "provides" : {
       "WWW::Proxy4FreeCom" : {
          "file" : "lib/WWW/Proxy4FreeCom.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       }
    },
    "release_status" : "stable",
@@ -47,5 +47,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "1.002"
+   "version" : "1.003"
 }

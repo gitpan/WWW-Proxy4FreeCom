@@ -58,7 +58,7 @@ SKIP: {
     my %test_res = (
         'domain' => qr/^[\w.-]+$/,
         'rating' => qr/^[\d-]+$/,
-        'country' => qr/^[\w' -]+$/,
+        'country' => qr/^[\w' ()-]+$/,
         'access_time' => qr/^([\d.]+|-)$/,
         'uptime' => qr/^(\d+|-)$/,
         'online_since' => qr/^[\w\s.-]+$/,

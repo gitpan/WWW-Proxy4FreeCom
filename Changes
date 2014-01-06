@@ -1,5 +1,8 @@
 Revision history for WWW-Proxy4FreeCom
 
+1.003   2014-01-04
+        - Updated tests to handle an edge case for country key.
+
 1.002   2013-12-30
         - Fixed broken tests
 
